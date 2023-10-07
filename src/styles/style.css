@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 0 9%;
+  box-sizing: border-box;
+  background-color: var(--primary-color); }
+
+html {
+  font-size: 62.5%;
+  font-family: "Fira Sans", sans-serif; }
+
+.heading-primary {
+  font-size: 6rem;
+  margin-bottom: 2.3rem;
+  letter-spacing: -0.1rem; }
+
+.paragraph {
+  font-size: 1.8rem;
+  color: #222222;
+  margin-bottom: 2rem;
+  line-height: 2.8rem; }
+  .paragraph:last-of-type {
+    margin-bottom: 5.6rem; }
+
+.btn {
+  display: inline-block;
+  padding: 1.7rem 3.2rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.4rem; }
+  .btn_blue {
+    background-color: #4737ff;
+    color: white; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6.5vh;
+  margin-bottom: 6rem; }
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.5rem; }
+  .hero__textbox {
+    padding-top: 6.7rem; }
+  .hero__imagebox {
+    position: relative; }
+  .hero__img {
+    position: absolute;
+    width: 48.8vw;
+    left: -3rem; }
+  .hero__video {
+    position: absolute;
+    z-index: 9999;
+    top: 56.5%;
+    right: 52%;
+    filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.44)); }
+  .hero .btn {
+    margin-bottom: 18.8rem; }

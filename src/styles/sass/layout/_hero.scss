@@ -1,0 +1,31 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.5rem;
+
+  &__textbox {
+    padding-top: 6.7rem;
+  }
+
+  &__imagebox {
+    position: relative;
+  }
+
+  &__img {
+    position: absolute;
+    width: 48.8vw;
+    left: -3rem;
+  }
+
+  &__video {
+    position: absolute;
+    z-index: 9999;
+    top: 56.5%;
+    right: 52%;
+    filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.44));
+  }
+
+  .btn {
+    margin-bottom: 18.8rem;
+  }
+}
